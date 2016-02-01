@@ -17,3 +17,7 @@ Markeri=[600 1000 1200 900 1600 1300 1100 800 1600 1400 500 1200 1300 1600 1000 
 % the following function returns the X axis positions of the extreme values
 [MinNema,MinIma,MaxNema,MaxIma]=YesOrNoContraction(MinX,MaxX,Markeri); 
 % You should probably see what happens with P2P values too
+
+% then plot histograms to see where extreme values most occur
+% and whether that differs for when there is and when there is no contraction
+HistExtremePositions
