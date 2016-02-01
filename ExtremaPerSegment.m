@@ -1,4 +1,7 @@
 function[MinXcell,MinYcell,MaxXcell,MaxYcell,P2Pcell]=ExtremaPerSegment(WavApprox)
+    % For each signal in WavApprox, splits it into 100point pieces,
+    % Then for each such segment find the local minimum, maximum, the positions of the min and max
+    % and min-to-max values
     
     NoFiles=length(WavApprox);
     MinXcell={};
