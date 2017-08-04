@@ -3,6 +3,7 @@ clc
 
 %% izbor fajl
 d=uigetfile('*.mat','Izaberite fajl','MultiSelect', 'on'); %% treba izabrati sve signale iz fajla
+%%%% note to earlier self: jesus christ, why is this not vectorized?
 St1=[];
 St2=[];
 St3=[];
