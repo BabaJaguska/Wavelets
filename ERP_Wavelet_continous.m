@@ -173,13 +173,13 @@ hold off
 end
 %---------------- % wavelet type
 
-% 'dog' — m-th order derivative of a Gaussian wavelet where m is a positive even integer. The default value of m is 2.
-% 'morl' — Morlet wavelet. Results in an analytic Morlet wavelet. The Fourier transform of an analytic wavelet is zero for negative frequencies.
-% 'morlex' — non-analytic Morlet wavelet
-% 'morl0' — non-analytic Morlet wavelet with zero mean
-% 'mexh' — Mexican hat wavelet. The Mexican hat wavelet is a special case of the m-th order derivative of a Gaussian wavelet with m=2.
-% 'paul' — Paul wavelet
-% 'bump' — Bump wavelet
+% 'dog' â€” m-th order derivative of a Gaussian wavelet where m is a positive even integer. The default value of m is 2.
+% 'morl' â€” Morlet wavelet. Results in an analytic Morlet wavelet. The Fourier transform of an analytic wavelet is zero for negative frequencies.
+% 'morlex' â€” non-analytic Morlet wavelet
+% 'morl0' â€” non-analytic Morlet wavelet with zero mean
+% 'mexh' â€” Mexican hat wavelet. The Mexican hat wavelet is a special case of the m-th order derivative of a Gaussian wavelet with m=2.
+% 'paul' â€” Paul wavelet
+% 'bump' â€” Bump wavelet
 
 
 figure()
